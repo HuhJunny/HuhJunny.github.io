@@ -1,0 +1,37 @@
+---
+---
+/*
+공통사항.
+@import, body, h1~h6, blockquote, a, a:hover, 검색상자, img, img:hover,
+article, 글 마무리, archive_single, #pagination_button_list, .sidebar_component,
+.sidebar_title, #hyper a, .category a, .category_sub a, .category_sub,
+#tipue_search_input, footer, #footer_content 등.
+*/
+ 
+@media only screen and (min-width: 1600px){    
+    /*
+    PC(와이드스크린)에서의 모습.
+    header, #main, #sidebar1, #content, #sidebar2 등
+    */
+}
+ 
+@media only screen and (max-width: 1600px) and (min-width: 1020px){    
+    /*
+    태블릿에서의 모습.
+    header, #main, #sidebar1, #content, #sidebar2 등
+    */
+}
+ 
+@media screen and (max-width: 1020px){
+    /*
+    모바일에서의 모습.
+    header, #main, #content, #sidebar1, #sidebar2 등
+    */
+}
+ 
+@media (prefers-color-scheme: 'dark') {
+    /*
+    다크모드.
+    body, #sidebar1, #sidebar2, #content, blockquote, header, a, a:hover, 검색 상자, article 등의 배경색, 글자 색상.
+    */
+}
